@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fellacarzapp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fellacarzapp/static/js/main.cb50b7ea.chunk.js",
+    "main.js.map": "/fellacarzapp/static/js/main.cb50b7ea.chunk.js.map",
+    "runtime-main.js": "/fellacarzapp/static/js/runtime-main.fee17794.js",
+    "runtime-main.js.map": "/fellacarzapp/static/js/runtime-main.fee17794.js.map",
+    "static/js/2.512e7d98.chunk.js": "/fellacarzapp/static/js/2.512e7d98.chunk.js",
+    "static/js/2.512e7d98.chunk.js.map": "/fellacarzapp/static/js/2.512e7d98.chunk.js.map",
+    "index.html": "/fellacarzapp/index.html",
+    "precache-manifest.7f31f813921c7d0774518a7f65846fdb.js": "/fellacarzapp/precache-manifest.7f31f813921c7d0774518a7f65846fdb.js",
+    "service-worker.js": "/fellacarzapp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fellacarzapp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.512e7d98.chunk.js.LICENSE.txt": "/fellacarzapp/static/js/2.512e7d98.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/fellacarzapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fee17794.js",
+    "static/js/2.512e7d98.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.cb50b7ea.chunk.js"
+  ]
+}
