@@ -1,0 +1,120 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.main-nav .logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.main-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-nav ul li {
+  padding: 0 40px;
+  font-weight: 600;
+}
+
+.main-nav ul li a {
+  display: inline-block;
+  line-height: 0.1;
+  padding-bottom: 2px;
+}
+/* 
+.main-nav ul li:last-child {
+  display: inline-block;
+  line-height: 0.1;
+  padding-bottom: 2px;
+  background-color: #178a35;
+} */
+
+.main-nav ul li:last-child > a {
+  display: inline-block;
+  line-height: 0.1;
+  background-color: #178a35;
+  border-radius: 15px;
+}
+
+.main-nav ul li:last-child > a:hover {
+  border-bottom: none;
+}
+
+.main-nav ul li a:hover {
+  border-bottom: 5px solid #178a35;
+}
+
+.signupLink {
+  color: white;
+  margin: 0px 30px;
+  font-weight: 600;
+}
+
+.nav-links {
+  font-weight: 600;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+}
+
+/* For Mobile */
+@media (max-width: 820px) {
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-nav ul {
+    display: none;
+  }
+}
